@@ -1,3 +1,16 @@
 .root {
+    position: relative;
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.img {
+    position: absolute;
+    width: 20px;
+    right: 50px;
 }
