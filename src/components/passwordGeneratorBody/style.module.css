@@ -1,4 +1,24 @@
-.div{
-    text-align: center;
-    padding: 250px;
+.grid_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.grid_item {
+    display: flex;
+    gap: 5px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_generator:hover {
+    cursor: pointer !important;
+}
+
+.btn_generator {
+    all: unset;
+    font-size: x-large;
 }
